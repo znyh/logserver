@@ -5,7 +5,7 @@ import (
 
 	"github.com/go-kratos/kratos/pkg/cache/redis"
 	"github.com/google/wire"
-	"github.com/znyh/middle-end/library/pkg/kafka"
+	"github.com/znyh/library/pkg/kafka"
 )
 
 var Provider = wire.NewSet(New, NewRedis, NewKafkaProducer)
