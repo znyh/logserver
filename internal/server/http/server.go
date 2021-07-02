@@ -3,7 +3,7 @@ package http
 import (
 	"net/http"
 
-	pb "github.com/znyh/middle-end/proto/logserver"
+	pb "github.com/znyh/proto/logserver"
 
 	"github.com/go-kratos/kratos/pkg/conf/paladin"
 	"github.com/go-kratos/kratos/pkg/log"

@@ -4,10 +4,10 @@
 package di
 
 import (
-	"github.com/znyh/middle-end/logserver/internal/dao"
-	"github.com/znyh/middle-end/logserver/internal/server/grpc"
-	"github.com/znyh/middle-end/logserver/internal/server/http"
-	"github.com/znyh/middle-end/logserver/internal/service"
+	"github.com/znyh/logserver/internal/dao"
+	"github.com/znyh/logserver/internal/server/grpc"
+	"github.com/znyh/logserver/internal/server/http"
+	"github.com/znyh/logserver/internal/service"
 
 	"github.com/google/wire"
 )

@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 
 	"github.com/go-kratos/kratos/pkg/log"
-	pb "github.com/znyh/middle-end/proto/logserver"
+	pb "github.com/znyh/proto/logserver"
 )
 
 func (s *Service) Record(ctx context.Context, req *pb.RecordReq) (resp *pb.RecordRsp, err error) {

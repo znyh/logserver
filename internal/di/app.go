@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/znyh/middle-end/logserver/internal/service"
+	"github.com/znyh/logserver/internal/service"
 
 	"github.com/go-kratos/kratos/pkg/log"
 	bm "github.com/go-kratos/kratos/pkg/net/http/blademaster"
